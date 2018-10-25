@@ -48,7 +48,7 @@ public class MailService {
 		mailSender.send(message);
 		
 	}
-	//发送给有附件的邮件
+	//发送给有附件的邮件,wo shi ni die 
 	public void sendAttachMail(String to, String subject, String content, String filepath) throws MessagingException{
 		
 		MimeMessage message = mailSender.createMimeMessage();
